@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Connection: close
+
+{
+   "anguloHorizontal":-30,
+   "anguloVerticalal":20,
+   "distancia":0,
+   "iluminancia":0,
+   "temperatura":10
+}

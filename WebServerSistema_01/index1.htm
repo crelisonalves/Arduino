@@ -1,0 +1,51 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: close
+
+<!DOCTYPE html>
+<html  lang="pt-BR">
+<head>
+	
+    <title> ServoMotor Sonar  </title>
+
+<!-- inportando arquivo CSS 
+<link rel="stylesheet" type="text/css" href="designer.css" />
+-->     
+
+</head>
+
+<body>
+<!-- importando arquivo JAVA SCRIPTS 
+<script type="text/javascript" src="ajax.js"></script>
+-->
+
+<div class="form-style-10">
+<h1>Cortesia Nelsoniana<span>Contribuindo para seu processo de construção do conhecimento</span></h1>
+<form>
+    <div class="section"><span>#</span> Sonar</div>
+    <div class="inner-wrap">
+        <label>Distância medida (cm): -- </label>
+      
+        
+    </div>
+        <div class="section"><span>#</span>Servomotor</div>
+        <div class="inner-wrap">
+        <label id="teta">Movimento horizontal : &theta; = 0&deg; </label><br><label>&nbsp;&nbsp;<input type="range" min=-90 max=90 name="field5" id="rangeGiroHorizontal" onchange="enviarGiroHorizontal()"/></label><br>
+        <label id="fi">Movimento vertical : &phi; = 0&deg; </label> <br><label> <input type="range" min=-70 max=80 name="fi" orient="vertical" id="rangeGiroVertical" onchange="enviarGiroVertical()" /></label>
+    </div>
+
+
+
+    <div class="button-section">
+     <input type="submit" name="Sign Up" />
+
+    </div>
+</form>
+</div>
+
+
+<div id="demo">
+  <h2>Let AJAX change this text</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+</body>
